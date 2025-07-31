@@ -123,9 +123,14 @@ button:hover {
   border: none;
   border-radius: 8px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   body {
     font-size: 14px;
+    width: 100%;
+  }
+
+  .navbar {
+    width: 100%;
   }
 
   .Name {
