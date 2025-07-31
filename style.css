@@ -123,7 +123,7 @@ button:hover {
   border: none;
   border-radius: 8px;
 }
-@media (max-width: 2000px) {
+@media (max-width: 1000px) {
   body {
     font-size: 14px;
     width: 100%;
@@ -134,7 +134,6 @@ button:hover {
   }
 
   .Name {
-    font-size: 5px;
     padding-left: 10px;
   }
 
@@ -143,12 +142,13 @@ button:hover {
   }
 
   a {
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .search {
     display: flex;
     gap: 5px;
+    padding-right: 10px;
   }
 
   .SRH {
